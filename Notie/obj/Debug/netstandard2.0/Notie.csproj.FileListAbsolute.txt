@@ -1,0 +1,15 @@
+/Users/katemrrr/Projects/Notie/Notie/bin/Debug/netstandard2.0/Notie.deps.json
+/Users/katemrrr/Projects/Notie/Notie/bin/Debug/netstandard2.0/Notie.dll
+/Users/katemrrr/Projects/Notie/Notie/bin/Debug/netstandard2.0/Notie.pdb
+/Users/katemrrr/Projects/Notie/Notie/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/katemrrr/Projects/Notie/Notie/obj/Debug/netstandard2.0/FolderContentPage.xaml.g.cs
+/Users/katemrrr/Projects/Notie/Notie/obj/Debug/netstandard2.0/FolderPage.xaml.g.cs
+/Users/katemrrr/Projects/Notie/Notie/obj/Debug/netstandard2.0/MainPage.xaml.g.cs
+/Users/katemrrr/Projects/Notie/Notie/obj/Debug/netstandard2.0/NotePage.xaml.g.cs
+/Users/katemrrr/Projects/Notie/Notie/obj/Debug/netstandard2.0/Notie.csproj.CoreCompileInputs.cache
+/Users/katemrrr/Projects/Notie/Notie/obj/Debug/netstandard2.0/Notie.AssemblyInfoInputs.cache
+/Users/katemrrr/Projects/Notie/Notie/obj/Debug/netstandard2.0/Notie.AssemblyInfo.cs
+/Users/katemrrr/Projects/Notie/Notie/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/katemrrr/Projects/Notie/Notie/obj/Debug/netstandard2.0/Notie.dll
+/Users/katemrrr/Projects/Notie/Notie/obj/Debug/netstandard2.0/Notie.pdb
+/Users/katemrrr/Projects/Notie/Notie/obj/Debug/netstandard2.0/Notie.csprojAssemblyReference.cache

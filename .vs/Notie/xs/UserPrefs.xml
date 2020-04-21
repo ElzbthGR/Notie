@@ -1,0 +1,35 @@
+﻿<Properties StartupConfiguration="{161D298B-F8AC-4F0A-8645-754717C4B4D3}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Notie/WeatherViewModel.cs">
+    <Files>
+      <File FileName="Notie/MainPage.xaml" Line="11" Column="33" />
+      <File FileName="Notie/MainPage.xaml.cs" Line="20" Column="10" />
+      <File FileName="Notie/NotePage.xaml.cs" Line="188" Column="10" />
+      <File FileName="Notie/NotePage.xaml" Line="54" Column="69" />
+      <File FileName="Notie/FolderContentPage.xaml" Line="29" Column="1" />
+      <File FileName="Notie/FolderPage.xaml" Line="16" Column="1" />
+      <File FileName="Notie/WeatherViewModel.cs" Line="82" Column="58" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Notie" expanded="True">
+            <Node name="Notie" expanded="True">
+              <Node name="App.xaml" expanded="True" />
+              <Node name="NotePage.xaml" expanded="True" />
+              <Node name="WeatherViewModel.cs" selected="True" />
+            </Node>
+            <Node name="Notie.iOS" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Notie.iOS automaticSigning="False" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.6443BAA6-17E2-4ACE-BD62-00F0FADFB959" />
+  <MonoDevelop.Ide.ItemProperties.Notie.Android AndroidDesignerPreferredTheme="Theme.DeviceDefault.NoActionBar.Fullscreen" PreferredExecutionTarget="Android.Nexus_4_API_22" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

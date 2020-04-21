@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage 
+    xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    x:Class="Notie.NotePage">
+    <ContentPage.Resources>
+    </ContentPage.Resources>
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Margin="30, 50, 30, 0">
+                <Label Text="Название:" />
+                <Entry Text="{Binding Title}" />
+                <Label Text="Описание:" />
+                <Editor BackgroundColor="#F0F8FE" 
+                        HeightRequest="200" 
+                        Text="{Binding Description}" />
+                <Label Text="Аудиозаметка:" />
+                <Button Text="►" 
+                        x:Name="play" 
+                        Clicked="RecordAudio_Button"/>
+                <Button Text="■" 
+                        x:Name="stop" 
+                        Clicked="StopAudio_Button"
+                        IsVisible="false"/>
+                <Button x:Name="listen" 
+                        Text="Прослушать" 
+                        Clicked="ListenAudio_Button"
+                        IsVisible="false"/>
+                <Button x:Name="deleteAudio" 
+                        Text="Удалить" 
+                        Clicked="DeleteAudio_Button"
+                        IsVisible="false"/>
+                <Label Text="Фото:" />
+                <Button x:Name="takePhoto" 
+                        Text="Сделать фото" 
+                        Clicked="TakePhoto_Button"/>
+                <Button x:Name="galleryPhoto" 
+                        Text="Взять фото из галереи" 
+                        Clicked="AddPhoto_Button"/>
+                <Image x:Name="image" Source="{Binding Image}"></Image>
+                <Button x:Name="deleteImage" 
+                        Text="Удалить" 
+                        Clicked="DeleteImage_Button" 
+                        IsVisible="false"/>
+                <Button Text="Добавить геолокацию" 
+                        Clicked="AddGeolocation"
+                        x:Name="addGeo"/>
+                <Button Text="Удалить геолокацию" 
+                        Clicked="DeleteGeolocation"
+                        IsVisible="false"
+                        x:Name="deleteGeo"/>
+                <StackLayout x:Name="mapGeo" IsVisible="false"/>
+                <Label x:Name="geoloc" IsVisible="false"
+                       Text="Не удалось получить Ваше местоположение"/>
+                <Picker Title="Выберете папку" x:Name="foldersList"/>
+                <StackLayout Orientation="Horizontal">
+                    <Button Text="Сохранить" Clicked="SaveNote" />
+                    <Button Text="Удалить" Clicked="DeleteNote" />
+                    <Button Text="Отмена" Clicked="Cancel" />
+                </StackLayout>
+                
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
